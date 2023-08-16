@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Document</title>
+   <style>
+      .container {
+         display: flex;
+      }
+      .polePart {
+         height: 800px;
+         width: 11.111px;
+         background: brown;
+         border-top-left-radius: 12px;
+      }
+      .flagPart {
+         width: 450px;
+         height: 300px;
+         box-shadow: 0px 0px 90px 1px rgb(129, 115, 129);
+         background-color: transparent;
+         position: relative;
+      }
+      .topColor {
+         height: 100px;
+         background-color: #ff9933
+      }
+      .middleColor {
+         height: 100px;
+         background-color: white
+      }
+      .bottomColor {
+         height: 100px;
+         background-color: green
+      }
+      .wheelPart {
+         height: 99px;
+         width: 99px;
+         border: 1px solid darkblue;
+         border-radius: 100px;
+         position: relative;
+         margin: 0 auto;
+      }
+      .wheelPart .spokeLine {
+         height: 100%;
+         width: 1px;
+         display: inline-block;
+         position: absolute;
+         left: 50%;
+         background: darkblue;
+      }
+      .spokeLine:nth
+      -child(1) {
+         transform: rotate(15deg)
+      }
+      .spokeLine:nth
+      -child(2) {
+         transform: rotate(30deg)
+      }
+      .spokeLine:nth
+      -child(3) {
+         transform: rotate(45deg)
+      }
+      .spokeLine:nth
+      -child(4) {
+          transform: rotate(60deg)
+      }
+      .spokeLine:nth
+      -child(5) {
+         transform: rotate(75deg)
+      }
+      .spokeLine:nth
+      -child(6) {
+         transform: rotate(90deg)
+      }
+      .spokeLine:nth
+      -child(7) {
+         transform: rotate(105deg)
+      }
+     .spokeLine:nth
+      -child(8) {
+         transform: rotate(120deg)
+      }
+      .spokeLine:nth
+      -child(9) {
+         transform: rotate(135deg)
+      }
+      .spokeLine:nth-child(10) {
+         transform: rotate(150deg)
+      }
+      .spokeLine:nth-child(11) {
+         transform: rotate(165deg)
+      }
+      .spokeLine:nth-child(12) {
+         transform: rotate(180deg)
+      }
+   </style>
+</head>
+<body>
+   <div class="container">
+      <div class="polePart"></div>
+         <div class="flagPart">
+         <div class="topColor"></div>
+         <div class="middleColor">
+            <div class="wheelPart">
+               <span class="spokeLine"></span>
+               <span class="spokeLine"></span>
+               <span class="spokeLine"></span>
+               <span class="spokeLine"></span>
+               <span class="spokeLine"></span>
+               <span class="spokeLine"></span>
+               <span class="spokeLine"></span>
+               <span class="spokeLine"></span>
+               <span class="spokeLine"></span>
+               <span class="spokeLine"></span>
+               <span class="spokeLine"></span>
+               <span class="spokeLine"></span>
+            </div>
+         </div>
+         <div class="bottomColor"></div>
+      </div>
+   </div>
+</body>
+</html>
